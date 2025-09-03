@@ -10,7 +10,7 @@ const imgCrioablacao = `${import.meta.env.BASE_URL}images/tratamentos/crioablaca
 function TratamentoCard({ badge, title, description, imageSrc }) {
   return (
     <CardSpotlight className="relative flex h-full w-full flex-col overflow-hidden rounded-2xl border border-line/40 bg-bg shadow-lg ring-1 ring-white/5">
-      <div className="aspect-[4/5] w-full overflow-hidden"> {/* ALTERE AQUI para aspect-[4/5] */}
+      <div className="aspect-[4/5] w-full overflow-hidden">
         <img src={imageSrc} alt={title} className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105" />
       </div>
       <div className="flex flex-1 flex-col p-6">
@@ -55,8 +55,8 @@ export function ProximoPasso() {
         </div>
         <FadeIn delay={0.3}>
           <div className="mt-12 text-center">
-            <Button asChild variant="gold" size="lg" className="font-bold">
-              <a href="https://wa.me/+55558588888888?text=Ol%C3%A1,%20gostaria%20de%20saber%20se%20posso%20fazer%20o%20procedimento%20de%20abla%C3%A7%C3%A3o%20de%20nervos."
+            <Button asChild variant="gold" size="lg" className="font-bold h-auto whitespace-normal py-3 text-sm md:text-base">
+              <a href="https://wa.me/+555585994326619?text=Ol%C3%A1,%20gostaria%20de%20saber%20se%20posso%20fazer%20o%20procedimento%20de%20abla%C3%A7%C3%A3o%20de%20nervos."
                 target="_blank">
                 Quero saber se posso fazer esse procedimento
               </a>
