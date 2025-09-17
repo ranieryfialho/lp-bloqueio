@@ -71,7 +71,7 @@ export function Header() {
           ))}
           <Button asChild variant="gold" className="ml-2">
             <a
-              href="https://wa.me/+555585994326619?text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o."
+              href="https://api.whatsapp.com/send/?phone=5585994326619&text=Ol%C3%A1%21+Vim+do+site+de+dor+no+joelho+e+gostaria+de+agendar+uma+consulta&type=phone_number&app_absent=0"
               target="blank"
               aria-label="Agendar consulta"
             >

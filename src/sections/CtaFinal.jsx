@@ -38,7 +38,7 @@ export function CtaFinal() {
                     size="lg" 
                     className="font-bold h-auto whitespace-normal text-center px-8 py-4 md:px-12 md:py-5 text-sm md:text-base leading-relaxed"
                   >
-                    <a href="https://wa.me/+555585994326619?text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20para%20o%20meu%20caso.">
+                    <a href="https://api.whatsapp.com/send/?phone=5585994326619&text=Ol%C3%A1%21+Vim+do+site+de+dor+no+joelho+e+gostaria+de+agendar+uma+consulta&type=phone_number&app_absent=0">
                       Quero agendar minha avaliação agora
                     </a>
                   </Button>

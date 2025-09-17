@@ -56,7 +56,7 @@ export function ProximoPasso() {
         <FadeIn delay={0.3}>
           <div className="mt-12 text-center">
             <Button asChild variant="gold" size="lg" className="font-bold h-auto whitespace-normal py-3 text-sm md:text-base">
-              <a href="https://wa.me/+555585994326619?text=Ol%C3%A1,%20gostaria%20de%20saber%20se%20posso%20fazer%20o%20procedimento%20de%20abla%C3%A7%C3%A3o%20de%20nervos."
+              <a href="https://api.whatsapp.com/send/?phone=5585994326619&text=Ol%C3%A1%21+Vim+do+site+de+dor+no+joelho+e+gostaria+de+agendar+uma+consulta&type=phone_number&app_absent=0"
                 target="_blank">
                 Quero saber se posso fazer esse procedimento
               </a>

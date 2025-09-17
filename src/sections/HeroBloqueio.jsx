@@ -19,7 +19,7 @@ export function HeroBloqueio() {
             </p>
             <div className="mt-8">
               <Button asChild variant="gold" size="lg" className="font-bold">
-                <a href="https://wa.me/+555585994326619?text=Ol%C3%A1,%20vim%20da%20p%C3%A1gina%20sobre%20bloqueio%20de%20nervos%20e%20gostaria%20de%20saber%20mais."
+                <a href="https://api.whatsapp.com/send/?phone=5585994326619&text=Ol%C3%A1%21+Vim+do+site+de+dor+no+joelho+e+gostaria+de+agendar+uma+consulta&type=phone_number&app_absent=0"
                   target="blank"
                 >
                   Quero agendar minha avaliação
