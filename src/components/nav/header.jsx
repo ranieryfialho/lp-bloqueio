@@ -1,7 +1,11 @@
 import { useEffect, useState } from "react";
 import { Button } from "../ui/button";
-import { Menu, Stethoscope } from "lucide-react";
+// O ícone 'Stethoscope' foi removido da importação
+import { Menu } from "lucide-react";
 import { cn } from "../../lib/cn";
+
+// Defina a URL do seu logo aqui
+const LOGO_URL = `${import.meta.env.BASE_URL}images/logo-drFelipe.png`;
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -53,8 +57,9 @@ export function Header() {
       )}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+        {/* O trecho abaixo foi alterado para usar a imagem do logo */}
         <a href="#" className="flex items-center gap-2">
-          <Stethoscope className="h-5 w-5 text-accent" />
+          <img src={LOGO_URL} alt="Logo Dr. Felipe Brasil" className="h-6 w-auto" />
           <span className="font-title text-lg">Dr. Felipe Brasil</span>
         </a>
 
